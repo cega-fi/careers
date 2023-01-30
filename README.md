@@ -45,8 +45,8 @@ The goal of these exercises is to give you an asynchronous medium for demonstrat
         * Anything else you'd lke us to know about your submission
     * a `ROADMAP.md` with what you would add/change if you had more time. Dream big.
     * a super-simple test suite if applicable (even one test is a bonus)
-    * Some form of lightweight technical documentation (code comments are fine)
+    * lightweight technical documentation (code comments are fine)
 
 5. When complete email a link to the repository and any special instructions to the individual you spoke with at Cega.
 
-6. Sit back and relax. We'll review your submission and get back to you with next steps! :bicep:
+6. Sit back and relax. We'll review your submission and get back to you with next steps! :full_moon_with_face:
