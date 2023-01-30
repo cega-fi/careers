@@ -4,15 +4,15 @@ For current open positions, visit our [Careers Page](https://www.notion.so/cega/
 
 # Hiring @ Cega
 
-Hello! We're so glad to have met you and had a chance to share more about working at [Cega](https://cega.fi). :tada: !
+Hello! We're so glad to have met you and had a chance to share more about working at [Cega](https://cega.fi). :tada:
 
-In order to move forward, we'd like to learn about how working with you on a day-to-day setting might look like. To that end, this repository contains a set of **short, time-boxed** (approximately 2-4 hours max) that you can use demonstrate your skills and abilities.
+The exercises below help us learn about how you might work on a day-to-day basis. This repository contains a set of **short, time-boxed** (approximately 2-4 hours max) questions.
 
-The goal of these exercises is to give you an asynchronous medium for demonstrating how you would break down a set of user stories and requirements into a proof-of-concept. Your submission will help us understand your thought process as an engineer and the decisions/trade-offs that you make. We know that four hours is not a lot of time and you might feel pressured to do more. Please truly hold yourself to the 4 hours max and make sure to create the `ROADMAP.md` file as outlined in the instructions below.
+The goal of these exercises is to give you an asynchronous medium for demonstrating how you would break down a set of user stories and requirements into a proof-of-concept. Your submission will help us understand your thought process and the decisions/trade-offs that you make. We know that 4 hours might feel short, but please do your best to hold yourself to the time limit!
 
 ## First, a few words about why we do take-home exercises
 
-* 🌎  ~ We're a fully-remote team with folks spread across many time zones! Async exercises allow you to show off your skills at a time/place that works for you.
+* 🌎  ~ We're a fully-remote team with folks spread across many time zones. Async exercises allow you to show off your skills at a time/place that works for you.
 
 * 🛠 ~ It matches the nature of our work. Most of being an engineer on a remote team is self-directed exploration of a problem, followed by period(s) of cyclic work/edit/review with your peers.
 
@@ -24,7 +24,7 @@ The goal of these exercises is to give you an asynchronous medium for demonstrat
 
 ## General Instructions
 
-1. Choose an exercise directory that matches your primary domain. This is the area in which you feel the most comfortable and have the highest degree of mastery
+1. Choose an exercise directory that matches your primary domain.
     * [frontend](frontend/instructions.md)
 
 2. Read the `instructions.md` file in the matching directory. Be sure to read the instructions carefully and ask any clarifying questions to us!
@@ -33,7 +33,7 @@ The goal of these exercises is to give you an asynchronous medium for demonstrat
     * [Vic](https://github.com/vizhang) 
     * [Fel](https://github.com/feliciacx0)
 
-4. Complete as much of the exercise as you can in 4 hours or less. Unless otherwise specified in the `instructions.md` document, you can use any language, framework, or toolchain you wish, although ideally this would be, Solidity, Typescript, React, and SQL (purely because those are the languages we use to build Cega and will be the most familiar with)
+4. Complete as much of the exercise as you can within the time-limit mentioned. Unless otherwise specified in the `instructions.md` document, you can use any language, framework, or toolchain you wish, although ideally this would be, Solidity, Typescript, React, and SQL (purely because those are the languages we use to build Cega and will be the most familiar with)
 
 5. Be sure to include the following in your submission
     * a `README.md` with the following information
@@ -45,8 +45,8 @@ The goal of these exercises is to give you an asynchronous medium for demonstrat
         * Anything else you'd lke us to know about your submission
     * a `ROADMAP.md` with what you would add/change if you had more time. Dream big.
     * a super-simple test suite if applicable (even one test is a bonus)
-    * lightweight technical documentation (code comments are fine)
+    * some light technical documentation (code comments are fine)
 
-5. When complete email a link to the repository and any special instructions to the individual you spoke with at Cega.
+5. When complete email a link to the repository and any special instructions to us.
 
 6. Sit back and relax. We'll review your submission and get back to you with next steps! :full_moon_with_face:
