@@ -32,6 +32,9 @@ Ideally, we should be able to run your solution locally and visualize the result
   * I shouldn't be able to deposit unless I'm connected to a wallet
 
 ### API Mock Details
+* Wallet Connectors
+  * Ethereum: feel free to use wagmi.sh, ethers.js, RainbowKit, etc...
+  * Solana: feel free to use Solana Lab's Wallet Adapater
 * Data
   * `amount` is USDC stored with 6 decimal places
   * `chain_name` can be either `["ethereum-mainnet", "solana-mainnet"]`
