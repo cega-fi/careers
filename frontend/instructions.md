@@ -20,7 +20,7 @@ Ideally, we should be able to run your solution locally and visualize the result
 ### User Story: As a defi degen user
 
 * I want to see a summary of total deposits and transactions
-  * Page should show the sum of deposits in dollars (two decimals) across chains (labeled as TVL)
+  * Page should show the sum of deposits in dollars (two decimals) across chains (labeled as TVL) less withdrawals
   * Page should load even if no chain is specified / wallet connected
 * I want to connect my wallet
   * I should be able to choose what chain I want to connect to
