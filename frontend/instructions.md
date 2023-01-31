@@ -36,12 +36,13 @@ Ideally, we should be able to run your solution locally and visualize the result
   * Ethereum: feel free to use wagmi.sh, ethers.js, RainbowKit, etc...
   * Solana: feel free to use Solana Lab's Wallet Adapater
 * Data
+  * `transaction_type` can be either `["deposit", "withdraw"]`
   * `amount` is USDC stored with 6 decimal places
   * `chain_name` can be either `["ethereum-mainnet", "solana-mainnet"]`
 * Transaction Summary
   * `get` to `https://shadowed-harmonious-receipt.glitch.me/ledger`
 * Deposit
-  * `post` to `https://shadowed-harmonious-receipt.glitch.me/ledger/transaction_type/deposit` with body `{ "amount": AMOUNT_TO_BE_DEPOSITED, "chain_name": CHAIN_NAME }`
+  * `post` to `https://shadowed-harmonious-receipt.glitch.me/ledger/transaction_type` with body `{ "transaction_type", TRANSACTION_TYPE, "amount": AMOUNT_TO_BE_DEPOSITED, "chain_name": CHAIN_NAME }`
 
 
 # Submitting your exercise
