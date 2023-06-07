@@ -31,7 +31,7 @@ The goal of these exercises is to give you an asynchronous medium for demonstrat
 
 3. Create a new **private repository** for your exercise and add the Cega hiring team members as private collaborators (We do this to preserve your anonymity.)
     * [Vic](https://github.com/vizhang) 
-    * [Fel](https://github.com/feliciacx0)
+    * [Marcos](https://github.com/marcossilvabr)
 
 4. Complete as much of the exercise as you can within the time-limit mentioned. Unless otherwise specified in the `instructions.md` document, you can use any language, framework, or toolchain you wish, although ideally this would be, Solidity, Typescript, React, and SQL (purely because those are the languages we use to build Cega and will be the most familiar with)
 
