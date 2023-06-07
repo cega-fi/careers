@@ -27,7 +27,8 @@ The best solution is one that is easy for the end-user and easy for developers t
 
 ### User Story #1: Basic Token Conversion
 * WHEN a user inputs the amount of USD into an input box
-* THEN text should display the amount of Dogecoin I would receive. Formatted like "Amount of Dogecoin: ## tokens". The conversion rate should happen automatically while the user input is being entered.
+* and CLICK a button with text "Convert"
+* THEN text should display the amount of Dogecoin I would receive. Formatted like "Amount of Dogecoin: ## tokens".
 * for example: If the current exchange rate is $1 USD for 2 Dogecoin, and the user inputs 2, then they should see Dogecoin: 4 tokens
 
 ### User Story #2: Toggles between Dogecoin and USD
