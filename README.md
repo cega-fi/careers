@@ -30,8 +30,7 @@ The goal of these exercises is to give you an asynchronous medium for demonstrat
 2. Read the take home questions in the matching directory based on what you were asked to submit. Be sure to read the instructions carefully and ask any clarifying questions to us!
 
 3. Create a new **private repository** for your exercise and add the Cega hiring team members as private collaborators (We do this to preserve your anonymity.)
-    * [Vic](https://github.com/vizhang) 
-    * [Marcos](https://github.com/marcossilvabr)
+    * Frontend - [Vic](https://github.com/vizhang), [Marcos](https://github.com/marcossilvabr)
 
 4. Complete as much of the exercise as you can within the time-limit mentioned. Unless otherwise specified in the `instructions.md` document, you can use any language, framework, or toolchain you wish, although ideally this would be, Solidity, Typescript, React, and SQL (purely because those are the languages we use to build Cega and will be the most familiar with)
 
@@ -43,10 +42,11 @@ The goal of these exercises is to give you an asynchronous medium for demonstrat
         * How to test/demo/run
         * Any feedback/notes (i.e. if something was hard, confusing, frustrating, etc)
         * Anything else you'd lke us to know about your submission
+6. If you're working on a Round 2 type question, please also submit the following
     * a `ROADMAP.md` with what you would add/change if you had more time. Dream big.
     * a super-simple test suite if applicable (even one test is a bonus)
     * some light technical documentation (code comments are fine)
 
-5. When complete email a link to the repository and any special instructions to us.
+7. When complete email a link to the repository and any special instructions to us.
 
-6. Sit back and relax. We'll review your submission and get back to you with next steps! :full_moon_with_face:
+8. Sit back and relax. We'll review your submission and get back to you with next steps! :full_moon_with_face:
