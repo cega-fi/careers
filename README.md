@@ -27,7 +27,7 @@ The goal of these exercises is to give you an asynchronous medium for demonstrat
 1. Choose an exercise directory that matches your primary domain.
     * [frontend](frontend/instructions.md)
 
-2. Read the `instructions.md` file in the matching directory. Be sure to read the instructions carefully and ask any clarifying questions to us!
+2. Read the take home questions in the matching directory based on what you were asked to submit. Be sure to read the instructions carefully and ask any clarifying questions to us!
 
 3. Create a new **private repository** for your exercise and add the Cega hiring team members as private collaborators (We do this to preserve your anonymity.)
     * [Vic](https://github.com/vizhang) 
