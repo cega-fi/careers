@@ -33,16 +33,16 @@ Ideally, we should be able to run your solution locally and visualize the result
 
 ### API Mock Details
 * Wallet Connectors
-  * Ethereum: feel free to use wagmi.sh, ethers.js, RainbowKit, etc...
-  * Solana: feel free to use Solana Lab's Wallet Adapater
+  * Ethereum: feel free to use wagmi.sh and ethers.js
+  * Solana: feel free to use [Solana Lab's Wallet Adapater](https://github.com/solana-labs/wallet-adapter)
 * Data
   * `transaction_type` can be either `["deposit", "withdraw"]`
   * `amount` is USDC stored with 6 decimal places
   * `chain_name` can be either `["ethereum-mainnet", "solana-mainnet"]`
 * Transaction Summary
-  * `get` to `https://shadowed-harmonious-receipt.glitch.me/ledger`
+  * `get` to `https://cega-careers-ledger.glitch.me/ledger`
 * Deposit
-  * `post` to `https://shadowed-harmonious-receipt.glitch.me/ledger/transaction_type` with body `{ "transaction_type", TRANSACTION_TYPE, "amount": AMOUNT_TO_BE_DEPOSITED, "chain_name": CHAIN_NAME }`
+  * `post` to `https://cega-careers-ledger.glitch.me/ledger/transaction_type` with body `{ "transaction_type", TRANSACTION_TYPE, "amount": AMOUNT_TO_BE_DEPOSITED, "chain_name": CHAIN_NAME, "wallet_address": WALLET_ADDRESS }`
 
 
 # Submitting your exercise
