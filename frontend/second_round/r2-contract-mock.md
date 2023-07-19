@@ -39,6 +39,8 @@ Ideally, we should be able to run your solution locally and visualize the result
   * `transaction_type` can be either `["deposit", "withdraw"]`
   * `amount` is USDC stored with 6 decimal places
   * `chain_name` can be either `["ethereum-mainnet", "solana-mainnet"]`
+  * `wallet_address` is the wallet address as a string value
+
 * Transaction Summary
   * `get` to `https://cega-careers-ledger.glitch.me/ledger`
 * Deposit
