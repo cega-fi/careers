@@ -25,24 +25,24 @@ The goal of these exercises is to give you an asynchronous medium for demonstrat
 ## General Instructions
 
 1. Choose an exercise directory that matches your primary domain.
-    * [frontend](frontend/instructions.md)
+    * [frontend](https://github.com/cega-fi/careers/tree/main/frontend)
 
 2. Read the take home questions in the matching directory based on what you were asked to submit. Be sure to read the instructions carefully and ask any clarifying questions to us!
 
 3. Create a new **private repository** for your exercise and add the Cega hiring team members as private collaborators (We do this to preserve your anonymity.)
     * Frontend - [Vic](https://github.com/vizhang), [Marcos](https://github.com/marcossilvabr)
+    * Solidity - [Vic](https://github.com/vizhang), [Vish](https://github.com/vsai)
 
 4. Complete as much of the exercise as you can within the time-limit mentioned. Unless otherwise specified in the `instructions.md` document, you can use any language, framework, or toolchain you wish, although ideally this would be, Solidity, Typescript, React, and SQL (purely because those are the languages we use to build Cega and will be the most familiar with)
 
 5. Be sure to include the following in your submission
     * a `README.md` with the following information
         * **A few screenshots of the finished product**. Show off that work! 📸
-        * The exercise you choose and why
         * A short explanation of what you built
         * How to test/demo/run
         * Any feedback/notes (i.e. if something was hard, confusing, frustrating, etc)
         * Anything else you'd lke us to know about your submission
-6. If you're working on a Round 2 type question, please also submit the following
+6. If you're working on any "Second Round" type question, please also submit the following
     * a `ROADMAP.md` with what you would add/change if you had more time. Dream big.
     * a super-simple test suite if applicable (even one test is a bonus)
     * some light technical documentation (code comments are fine)
