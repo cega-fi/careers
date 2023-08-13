@@ -14,8 +14,8 @@ We're evaluating your ability to take a set of requirements and build a solution
 We should be able to run your solution locally with test-cases!
 
 # Details
-## Exercise 1: ETH Short-Put Options Vault
-You will be building a short-put vanilla options vault contract based on the tokenized vault standard (ERC-4626). Vanilla options have four strategies (long put, long call, short put, short call) but for the purpose of this exercise we'll just focus on the short-put strategy.
+## ETH Short-Put Options Vault
+You will be implementing a few methods to create a short-put vanilla options vault contract based on the tokenized vault standard (ERC-4626). Vanilla options have four strategies (long put, long call, short put, short call) but for the purpose of this exercise we'll just focus on the short-put strategy.
 
 If you need a primer on put-selling, you can visit this [link](https://www.khanacademy.org/economics-finance-domain/core-finance/derivative-securities/put-call-options/v/american-put-options).
 
@@ -44,8 +44,7 @@ Options payoff formula:
 payoff = options_premium - trade_pnl
 ```
 
-
-## Vault Cycle Flow
+## Vault Cycle Flow Architecture
 ### 1. Create the Vault
 - Initialize your vault contract with the structure and trade parameters
 ### 2. Pre-Trade:
@@ -56,7 +55,7 @@ payoff = options_premium - trade_pnl
 ### 4. Post trade expiration
 - To settle, you have to calculate what the payoff is using the formula provided above. You should implement a method called `settleVault` which calculates what the payoff is and then makes the correct transfer amount.
 - Only the market maker that traded the vault is allowed to settle.
-### 4. Withdrawals (optional, time-permitting)
+### 4. Withdrawals
 - User can withdrawal funds from the vault by exchanging their valt tokens
 
 ## Example Vault
