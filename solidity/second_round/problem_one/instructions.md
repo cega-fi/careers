@@ -2,7 +2,7 @@
 
 ```
 TIMEBOX:    2-4 hours max.
-LANGUAGES:  Solidity, Hardhat, Typescript
+LANGUAGES:  Solidity, Hardhat, Javascript/Typescript
 WEB3 FRAMEWORKS: 
 TESTS:      Hardhat tests
 DOCS:       nice to have, but not mandatory
