@@ -1,12 +1,11 @@
 # Frontend Hiring Exercises
 
 ```
-TIMEBOX:    2-4 hours max.
+TIMEBOX:    up to 24 hours.
 LANGUAGES:  Typescript, React, HTML / CSS
 WEB2 FRAMEWORKS: React and any libraries you want. We use Mantine (https://mantine.dev/) and MUI(https://mui.com/).
-WEB3 FRAMEWORKS: Wagmi/Ethers.js on Ethereum and Web3.js on Solana
+WEB3 FRAMEWORKS: Wagmi/Ethers.js on Ethereum
 TESTS:      nice to have, but not mandatory
-DOCS:       nice to have, but not mandatory
 ```
 
 # Overview

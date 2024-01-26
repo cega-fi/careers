@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import { CegaEvmSDKV2 } from '@cega-fi/cega-sdk-evm';
 
@@ -33,18 +32,11 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={"https://cdn.glitch.global/11976b1b-56cf-4260-a8a7-c4ffa2875b78/transaction-swirl.png?v=1648345672287"} className="App-logo" alt="logo" style={{ width: '100px', height: "100px"}}/>
         <p>
-          Edit <code>src/App.tsx</code> and save to reload.
+          Edit <code>src/App.tsx</code> to get started.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Second Round Starter App
-        </a>
+        <p>Good luck!</p>
       </header>
     </div>
   );
