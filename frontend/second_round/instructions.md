@@ -1,52 +1,56 @@
 # Frontend Hiring Exercises
 
 ```
-TIMEBOX:    2-4 hours max.
+TIMEBOX:    up to 24 hours.
 LANGUAGES:  Typescript, React, HTML / CSS
 WEB2 FRAMEWORKS: React and any libraries you want. We use Mantine (https://mantine.dev/) and MUI(https://mui.com/).
-WEB3 FRAMEWORKS: Wagmi/Ethers.js on Ethereum and Web3.js on Solana
+WEB3 FRAMEWORKS: Wagmi/Ethers.js on Ethereum
 TESTS:      nice to have, but not mandatory
-DOCS:       nice to have, but not mandatory
 ```
 
 # Overview
 We're evaluating your ability to take a set of requirements and build a solution that demonstrates craftsmanship, thoughtfulness and attention to user experience. The best solution is one that is easy for the end-user and easy for developers to debug/test/extend.
 
-Ideally, we should be able to run your solution locally and visualize the results in a browser!
+# Choose from the following exercises:
+## Exercise 1: Custom Cega Deposit Experience
+In this exercise, you'll be using Cega's production SDK and implementing a simple deposit flow experience into one of our products.
 
-# Choose one of the exercises below
+We've given you starter code in `/src` folder to use. It comes with the basics, so check out the `App.tsx` file to get started.
 
-## Exercise 1: Multichain Wallet Connections
-### User Story: As a defi degen user
+Please implement the following user stories. Should you have more time, you can tackle any of the optional user stories as well. The user stories focus on functionality, not design so it is up to you to make the right UI/UX choices for each of these stories.
 
-* I want to see a summary of total deposits and transactions
-  * Page should show the sum of deposits in dollars (two decimals) across chains (labeled as TVL) less withdrawals
-  * Page should load even if no chain is specified / wallet connected
-* I want to connect my wallet
+### Core User stories: As a defi degen user
+* I can connect my wallet.
   * I should be able to choose what chain I want to connect to
-  * I should be able to connect to a corresponding wallet (based on chain)
-  * I should be able to see what my wallet address is when I'm connected
   * I should be able to disconnect my wallet
-* I want to deposit some money (note: no money is deposited, just use the API endpoint to mock)
-  * I should be depositing to the chain I've selected
-  * I shouldn't be able to deposit unless I'm connected to a wallet
 
-### API Mock Details
-* Wallet Connectors
-  * Ethereum: feel free to use wagmi.sh and ethers.js
-  * Solana: feel free to use [Solana Lab's Wallet Adapater](https://github.com/solana-labs/wallet-adapter)
-* Data
-  * `transaction_type` can be either `["deposit", "withdraw"]`
-  * `amount` is USDC stored with 6 decimal places
-  * `chain_name` can be either `["ethereum-mainnet", "solana-mainnet"]`
-  * `wallet_address` is the wallet address as a string value
+* I want to see a list of products that I can invest in
+  * I can see a list of products that are investable
+  * Clicking on a product should take me to a deposit page
 
-* Transaction Summary
-  * `get` to `https://cega-careers-ledger.glitch.me/ledger`
-* Deposit
-  * `post` to `https://cega-careers-ledger.glitch.me/ledger/transaction_type` with body `{ "transaction_type", TRANSACTION_TYPE, "amount": AMOUNT_TO_BE_DEPOSITED, "chain_name": CHAIN_NAME, "wallet_address": WALLET_ADDRESS }`
+* On the deposit page, I can deposit funds into a product
+  * I can see an input form that allows me to input an amount of deposit
+  * I can not deposit if I am not connected to a wallet
+  * I can understand that there are two separate transactions to sign. One for approval and one for the deposit. Note: you can decide how to create this experience. For inspiration, take a look at Uniswap, Aave, or 1inch.
+* After a successful deposit, I can see the amount of tokens deposited into a product.
+
+### Optional improvements:
+* Advanced error handling (maximum and minimum deposits)
+* Experience improvements (eg. Max input button, or other ideas up to you!)
+
+### 💳 Wallet Details
+* You can implement any wallet connector of your choice. We recommend using [Wagmi](https://wagmi.sh/react/guides/connect-wallet) for simplicity, but if you wish to use a 3rd Party wallet connector such as WalletConnect, feel free to!
+
+### 🔌 API Details
+* `/dashboard/products` returns a list of Cega products available for deposit. This matches the existing production experience you see on the [Cega](app.cega.fi) website. This is already made avaialble for you in `App.tsx`.
+
+### 🤖 SDK Details
+* The Cega SDK for interacting with v2 Dual Currency products is available via `CegaEvmSDKV2`. This SDK is already imported for you in `App.tsx`.
+* Documentation for the SDK can be found [here](https://github.com/cega-fi/cega-sdk-evm/blob/main/documentation/v2.md).
+* You'll need to pass in a signer as well. This you can get from your wallet provider.
+* If you don't already have a RPC endpoint to use, you'll need to get one. We recommend using [Alchemy's](https://www.alchemy.com/) free plan.
+* Note: testing on Arbitrum is recommended as it is significantly cheaper than using Ethereum. Most transactions should only cost ~$0.25 USD per transaction.
 
 
 # Submitting your exercise
-
 1. See [instructions for submitting your work](https://github.com/cega-fi/careers/blob/main/README.md#general-instructions)
