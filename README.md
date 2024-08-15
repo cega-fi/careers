@@ -12,40 +12,44 @@ The goal of these exercises is to give you an asynchronous medium for demonstrat
 
 ## First, a few words about why we do take-home exercises
 
-* 🌎  ~ We're a fully-remote team with folks spread across many time zones. Async exercises allow you to show off your skills at a time/place that works for you.
+- 🌎 ~ We're a fully-remote team with folks spread across many time zones. Async exercises allow you to show off your skills at a time/place that works for you.
 
-* 🛠 ~ It matches the nature of our work. Most of being an engineer on a remote team is self-directed exploration of a problem, followed by period(s) of cyclic work/edit/review with your peers.
+- 🛠 ~ It matches the nature of our work. Most of being an engineer on a remote team is self-directed exploration of a problem, followed by period(s) of cyclic work/edit/review with your peers.
 
-* ⏳  ~ Take-home exercises allow you to work at your own pace and break up the time into as many sessions as you wish.
+- ⏳ ~ Take-home exercises allow you to work at your own pace and break up the time into as many sessions as you wish.
 
-* 👁 ~ It eliminates the performance anxiety of forced-pairing with someone whom you've just met.
+- 👁 ~ It eliminates the performance anxiety of forced-pairing with someone whom you've just met.
 
-* 🧰 ~ It allows you to use the tools, languages, and frameworks that you are familar with.
+- 🧰 ~ It allows you to use the tools, languages, and frameworks that you are familiar with.
 
 ## General Instructions
 
 1. Choose an exercise directory that matches your primary domain.
-    * [frontend](https://github.com/cega-fi/careers/tree/main/frontend)
+
+   - [frontend](https://github.com/cega-fi/careers/tree/main/frontend)
 
 2. Read the take home questions in the matching directory based on what you were asked to submit. Be sure to read the instructions carefully and ask any clarifying questions to us!
 
 3. Create a new **private repository** for your exercise and add the Cega hiring team members as private collaborators (We do this to preserve your anonymity.)
-    * Frontend - [Vic](https://github.com/vizhang), [Marcos](https://github.com/marcossilvabr)
-    * Solidity - [Vic](https://github.com/vizhang), [Vish](https://github.com/vsai)
+
+   - Frontend - [Vic](https://github.com/vizhang), [Marcos](https://github.com/marcossilvabr)
+   - Solidity - [Vic](https://github.com/vizhang), [Vish](https://github.com/vsai)
+   - Solana - [Vic](https://github.com/vizhang), [Vish](https://github.com/vsai)
 
 4. Complete as much of the exercise as you can within the time-limit mentioned. Unless otherwise specified in the `instructions.md` document, you can use any language, framework, or toolchain you wish, although ideally this would be, Solidity, Typescript, React, and SQL (purely because those are the languages we use to build Cega and will be the most familiar with)
 
 5. Be sure to include the following in your submission
-    * a `README.md` with the following information
-        * **A few screenshots of the finished product**. Show off that work! 📸
-        * A short explanation of what you built
-        * How to test/demo/run
-        * Any feedback/notes (i.e. if something was hard, confusing, frustrating, etc)
-        * Anything else you'd lke us to know about your submission
+   - a `README.md` with the following information
+     - **A few screenshots of the finished product**. Show off that work! 📸
+     - A short explanation of what you built
+     - How to test/demo/run
+     - Any feedback/notes (i.e. if something was hard, confusing, frustrating, etc)
+     - Anything else you'd like us to know about your submission
 6. If you're working on any "Second Round" type question, please also submit the following
-    * a `ROADMAP.md` with what you would add/change if you had more time. Dream big.
-    * a super-simple test suite if applicable (even one test is a bonus)
-    * some light technical documentation (code comments are fine)
+
+   - a `ROADMAP.md` with what you would add/change if you had more time. Dream big.
+   - a super-simple test suite if applicable (even one test is a bonus)
+   - some light technical documentation (code comments are fine)
 
 7. When complete email a link to the repository and any special instructions to us.
 
